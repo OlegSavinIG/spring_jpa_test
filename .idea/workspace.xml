@@ -4,30 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="feac157f-c98e-4c88-b2f5-bfc2ae170811" name="Changes" comment="jdbc app">
-      <change afterPath="$PROJECT_DIR$/spring_projections/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_projections/src/main/java/example/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_projections/src/main/java/example/controller/DepartmentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_projections/src/main/java/example/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_projections/src/main/java/example/model/department/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_projections/src/main/java/example/model/department/DepartmentDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_projections/src/main/java/example/model/department/DepartmentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_projections/src/main/java/example/model/employee/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_projections/src/main/java/example/model/employee/EmployeeDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_projections/src/main/java/example/model/employee/EmployeeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_projections/src/main/java/example/model/employee/EmployeeProjection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_projections/src/main/java/example/model/employee/EmployeeProjectionDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_projections/src/main/java/example/repository/DepartmentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_projections/src/main/java/example/repository/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_projections/src/main/java/example/service/DepartmentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_projections/src/main/java/example/service/DepartmentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_projections/src/main/java/example/service/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_projections/src/main/java/example/service/EmployeeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_projections/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_projections/src/test/java/example/service/EmployeeServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_projections/src/test/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="feac157f-c98e-4c88-b2f5-bfc2ae170811" name="Changes" comment="projections">
+      <change afterPath="$PROJECT_DIR$/spring_projections/src/main/java/example/config/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_projections/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_projections/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_projections/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring_projections/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,16 +38,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "corretto-21"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-21&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.service" />
@@ -82,7 +64,7 @@
       <recent name="jpa.example.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EmployeeServiceImplTest.getAllEmployeeProjections_shouldReturnCorrectProjections">
+  <component name="RunManager" selected="Application.example.MainApp">
     <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.MainApp" />
       <module name="spring_projections" />
@@ -157,8 +139,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EmployeeServiceImplTest.getAllEmployeeProjections_shouldReturnCorrectProjections" />
         <item itemvalue="Application.example.MainApp" />
+        <item itemvalue="JUnit.EmployeeServiceImplTest.getAllEmployeeProjections_shouldReturnCorrectProjections" />
         <item itemvalue="Application.MainApp" />
         <item itemvalue="JUnit.EmployeeServiceImplTest" />
         <item itemvalue="JUnit.BookRepositoryImplTest" />
@@ -181,11 +163,19 @@
       <option name="project" value="LOCAL" />
       <updated>1739373902826</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="projections">
+      <created>1739379905955</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739379905955</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="jdbc app" />
-    <option name="LAST_COMMIT_MESSAGE" value="jdbc app" />
+    <MESSAGE value="projections" />
+    <option name="LAST_COMMIT_MESSAGE" value="projections" />
   </component>
 </project>
